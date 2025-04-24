@@ -42,15 +42,15 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "I LOVE YOU THIS MUCH TOO!! 🥰🚀💝",  // Shows when they go past 5000%
-        high: "Stop it, you're making me blush! 🚀💝",              // Shows when they go past 1000%
+        extreme: "I LOVE YOU THIS MUCH TOO!! 🥰💝",  // Shows when they go past 5000%
+        high: "Stop it, you're making me blush! 💝",              // Shows when they go past 1000%
         normal: "Wow really?! 🥰"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
         title: "Yay! I'm the luckiest person in the world! 🎉💝💖💝💓",
-        message: "Now come get your gift, a big warm hug! (and some chocolates but I'm sure that's not the most important part... right?",
+        message: "Now come get your gift, a big warm hug! (and some chocolates)",
         emojis: "🎁💖🤗💝💋❤️💕🌟✨"  // These will bounce around
     },
 
@@ -58,7 +58,7 @@ const CONFIG = {
     // Use https://colorhunt.co or https://coolors.co to find beautiful color combinations
     colors: {
         backgroundStart: "#cdb4db",      // Gradient start (try pastel colors for a soft look)
-        backgroundEnd: "#ffc8dd",        // Gradient end (should complement backgroundStart)
+        backgroundEnd: "#a2d2ff",        // Gradient end (should complement backgroundStart)
         buttonBackground: "#ff6b6b",     // Button color (should stand out against the background)
         buttonHover: "#ff8787",          // Button hover color (slightly lighter than buttonBackground)
         textColor: "#ff4757"             // Text color (make sure it's readable!)
