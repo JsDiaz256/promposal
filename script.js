@@ -206,7 +206,7 @@ function createHeartExplosion() {
 function showLetter(){
     document.querySelectorAll('.question-section').forEach(q => q.classList.add('hidden'));
     document.getElementById('celebration').classList.add('hidden');
-    document.getElementById('letter').classList.remove('hidden');
+    document.getElementById('letter-page').classList.remove('hidden');
 }
 
 // Music Player Setup
