@@ -202,6 +202,13 @@ function createHeartExplosion() {
     }
 }
 
+//showing letter
+function showLetter(){
+    document.querySelectorAll('.question-section').forEach(q => q.classList.add('hidden'));
+    document.getElementById('celebration').classList.add('hidden');
+    document.getElementById('letter').classList.remove('hidden');
+}
+
 // Music Player Setup
 function setupMusicPlayer() {
     const musicControls = document.getElementById('musicControls');
