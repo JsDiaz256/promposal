@@ -186,6 +186,7 @@ function celebrate() {
     
     // Create heart explosion effect
     createHeartExplosion();
+    // wait(30);
 }
 
 // Create heart explosion animation
