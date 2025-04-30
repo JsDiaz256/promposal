@@ -25,6 +25,12 @@ body {
     overflow-x: hidden;
 }
 
+.letter{
+    font-size: 1.5em;
+    color: #ff4757;
+    margin: 30px 0;
+}
+
 .container {
     background: rgba(255, 255, 255, 0.9);
     padding: 2rem;
