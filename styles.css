@@ -32,7 +32,14 @@ body {
 }
 
 #secretLetterBtn{
-    transition: opacity 15s;
+    opacity: 0;
+    transition: opacity 15s, transform 0.3s, background 0.3s;
+}
+
+#secretLetterBtn:hover {
+    transform: scale(1.1);
+    background: var(--button-hover);
+    opacity: 1;
 }
 
 .container {
