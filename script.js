@@ -186,7 +186,9 @@ function celebrate() {
     
     // Create heart explosion effect
     createHeartExplosion();
-    // wait(30);
+    setTimeout(function(){
+        document.getElementById('secretLetterBtn').style.visibility = "visible";
+    },1000);
 }
 
 // Create heart explosion animation
