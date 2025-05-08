@@ -152,10 +152,10 @@ loveMeter.addEventListener('input', () => {
         loveMeter.style.transition = 'width 0.3s';
         
         // Show different messages based on the value
-        if (value >= 5000) {
+        if (value >= 4000) {
             extraLove.classList.add('super-love');
             extraLove.textContent = config.loveMessages.extreme;
-        } else if (value > 1000) {
+        } else if (value > 2000) {
             extraLove.classList.remove('super-love');
             extraLove.textContent = config.loveMessages.high;
         } else {
@@ -188,7 +188,7 @@ function celebrate() {
     createHeartExplosion();
     setTimeout(function(){
         document.getElementById('secretLetterBtn').style.visibility = "visible";
-    },15000);
+    },5000);
 }
 
 // Create heart explosion animation
